@@ -1,0 +1,14 @@
+.jumbotron {
+  color: white;
+  background: url(../imagens/img-fundo.png) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.habilidades{
+	background: url(../imagens/img-fundo.png) no-repeat center center;
+	background-size: cover;
+	height: 50vh;
+	background-attachment: fixed;
+}

@@ -5,41 +5,54 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- fonte Ubuntu -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
 
+    <!-- <script>
+      w3.includeHTML();
+    </script> -->
+
     <title>AR | Front End</title>
   </head>
   <body>
-
-    <nav class="navbar sticky-top bg-dark navbar-expand-lg">
+    
+    <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
       <div class="container">
         <a href="#" class="navbar-brand" title="ESCREVA_AQUI">
           <img class="d-inline-block align-top" src="imagens/logo.png" alt="ESCREVA_AQUI" title="ESCREVA_AQUI" width="30" height="30">
           AR | Front End
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" aria-controls="navbarSite" aria-expanded="false">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSite">
-          <ul class="navbar-nav">
+          <ul class="nav navbar-nav ml-auto">
             <li class="nav-item"><a href="#" title="ESCREVA_AQUI" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="#" title="ESCREVA_AQUI" class="nav-link">Sobre mim</a></li>
-            <li class="nav-item"><a href="#" title="ESCREVA_AQUI" class="nav-link">Skills</a></li>
-            <li class="nav-item"><a href="#" title="ESCREVA_AQUI" class="nav-link">Projetos</a></li>
-            <li class="nav-item"><a href="#" title="ESCREVA_AQUI" class="nav-link">Contato</a></li>
+            <li class="nav-item"><a href="#sobre" title="ESCREVA_AQUI" class="nav-link">Sobre mim</a></li>
+            <li class="nav-item"><a href="#skills" title="ESCREVA_AQUI" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#projetos" title="ESCREVA_AQUI" class="nav-link">Projetos</a></li>
+            <li class="nav-item"><a href="#contato" title="ESCREVA_AQUI" class="nav-link">Contato</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div w3-include-html="inc/jumbotron.html"></div>
+    <!-- <div w3-include-html="inc/jumbotron.html"></div> -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Fluid jumbotron</h1>
+        <p>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </div>
+    </div>
 
     <main>
 
       <!-- descrição -->
-      <section>
+      <section id="sobre">
         <div class="container">
           <div class="row my-5">
             <div class="col-12 col-md">
@@ -55,7 +68,7 @@
       </section>
 
       <!-- Habilidades -->
-      <section class="habilidades mb-5">
+      <section id="skills" class="habilidades mb-5">
         <div class="container">
            <div class="my-3">
             <h2 class="text-center">Minhas Habilidades</h2>
@@ -99,7 +112,7 @@
       </section>
 
       <!-- Projetos -->
-      <section>
+      <section id="projetos">
         <div class="container2">
           <h2 class="text-center">Projeto</h2>
           <p class="text-center">Projetos que criei e que também contribuí</p>
@@ -143,7 +156,7 @@
       </section>
 
       <!-- Contato -->
-      <section>
+      <section id="contato">
         <div class="container py-5">
           <h2 class="text-center">Entre em Contato</h2>
 
@@ -195,8 +208,5 @@
     
     <!-- JavaScript (Opcional) -->
     <script src="js/funcoes.js"></script>
-    <script>
-      w3.includeHTML();
-    </script>
   </body>
 </html>

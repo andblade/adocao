@@ -1,3 +1,12 @@
+/* fixar a navbar após o deslocamento abaixo do cabeçalho */
+// $('.navbar').affix({
+//       offset: {
+//         top: $('#sobre').offset().top
+//       }
+// }); 
+
+
+
 /************************************************************************************************/
 //Exemplo de JavaScript inicial para desativar envios de formulário, se houver campos inválidos.
 /************************************************************************************************/

@@ -2,21 +2,26 @@ body{
   font-family: 'Ubuntu', sans-serif;
 }
 
+.cor-nav{
+  background: rgba(0, 0, 0, 0.2);
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.2);*/
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.txtbranco a{
+  color: #fff!important;
+}
 
 .jumbotron {
   color: white;
-  background: url(../imagens/slider/banner3.jpg) no-repeat center center;
+  background: url(../imagens/slider/banner6.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
   /*background-attachment: fixed;*/
 }
-.affix {
-  background-color: #000;
-  -webkit-transition:padding 0.2s ease-out;
-  -moz-transition:padding 0.2s ease-out;  
-  -o-transition:padding 0.2s ease-out;         
-  transition:padding 0.2s ease-out;
-}
+
 
 .habilidades{
 	background: url(../imagens/img-fundo.png) no-repeat center center;
@@ -28,8 +33,8 @@ body{
 .container2{
 	max-width: 960px;
 	width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }

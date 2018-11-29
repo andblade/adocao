@@ -1,10 +1,13 @@
-/* fixar a navbar após o deslocamento abaixo do cabeçalho */
-// $('.navbar').affix({
-//       offset: {
-//         top: $('#sobre').offset().top
-//       }
-// }); 
-
+//menu transparente com scroll
+$(function(){
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 400){
+      $(".navbar").addClass("bg-dark");
+    }else{
+      $(".navbar").removeClass("bg-dark");
+    }
+  });
+});
 
 
 /************************************************************************************************/

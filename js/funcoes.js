@@ -1,13 +1,38 @@
 //menu transparente com scroll
 $(function(){
   $(window).scroll(function(){
-    if ($(this).scrollTop() > 400){
+    if ($(this).scrollTop() > 20){
       $(".navbar").addClass("bg-dark");
     }else{
       $(".navbar").removeClass("bg-dark");
     }
   });
 });
+
+//fim
+
+//Transição suave entre os menus
+$(function() {
+  // Handler for .ready() called.
+  // Deslize suave
+  $(".desliza").on("click", function (e) {
+    e.preventDefault();
+    var target = this.hash;
+    var $target = $(target);
+    console.log($target.offset().top);
+    $("html, body").stop().animate({"scrollTop": ($target.offset().top - ($("header").hasClass("topofixo") ? $("header").height() : 0 ))}, 900, "swing", null);
+    console.log($target.offset().top);
+  });
+});
+//fim
+
+//Rolar pra cima
+$(document).ready(function() {
+    $('a[href=#index]').click(function(){
+        $('html, body').animate({scrollTop: 0 }, 900, 'slow', null);
+        return false;
+    });
+})
 
 
 /************************************************************************************************/

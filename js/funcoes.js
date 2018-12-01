@@ -8,7 +8,6 @@ $(function(){
     }
   });
 });
-
 //fim
 
 //Transição suave entre os menus
@@ -19,20 +18,29 @@ $(function() {
     e.preventDefault();
     var target = this.hash;
     var $target = $(target);
-    console.log($target.offset().top);
-    $("html, body").stop().animate({"scrollTop": ($target.offset().top - ($("header").hasClass("topofixo") ? $("header").height() : 0 ))}, 900, "swing", null);
+    console.log($target.offset().top); 
+    $("html, body").stop().animate({"scrollTop": ($target.offset().top - ($("header").hasClass("fixed-top") ? $("header").height() : 100 ))}, 900, "swing", null); //se header tiver a classe fixed-top faça "$("header").height()", se não, faça "100"
     console.log($target.offset().top);
   });
 });
 //fim
 
-//Rolar pra cima
-$(document).ready(function() {
-    $('a[href=#index]').click(function(){
-        $('html, body').animate({scrollTop: 0 }, 900, 'slow', null);
-        return false;
-    });
-})
+//Back to top button
+var btn = $('#buttonTop');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+//fim
 
 
 /************************************************************************************************/

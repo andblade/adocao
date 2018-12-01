@@ -2,6 +2,14 @@ body{
   font-family: 'Ubuntu', sans-serif;
 }
 
+.teste{
+  border: 1px solid red;
+}
+
+.bg-primaria{
+  background-color: #363c43;
+}
+
 .cor-nav{
   background: rgba(0, 0, 0, 0.1);
   /*border-bottom: 1px solid rgba(255, 255, 255, 0.2);*/
@@ -23,18 +31,77 @@ body{
 }
 
 
-.habilidades{
-	background: url(../imagens/img-fundo.png) no-repeat center center;
-	background-size: cover;
-	height: 50vh;
-	background-attachment: fixed;
-}
-
 .container2{
-	max-width: 960px;
-	width: 100%;
+  max-width: 960px;
+  width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+#buttonTop{
+  display: inline-block;
+  background-color: #60676f;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#buttonTop:hover {
+  cursor: pointer;
+  background-color: #555;
+}
+#buttonTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+#buttonTop .fa-arrow-up{
+  color: #ccc;
+}
+
+.border-r{
+  border-right: 5px solid #383e45;
+}
+
+.aspas{
+  background: url(../imagens/quotes.png) no-repeat center center;
+  background-size: contain;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 575.98px) {
+  .font-media {
+    font-size: 1.5rem;
+  }
+  .border-r{
+    border-right: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .font-media {
+    font-size: 2.5rem;
+  }
+  .border-r{
+    border-right: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .font-media {
+    font-size: 3.5rem;
+  }
 }

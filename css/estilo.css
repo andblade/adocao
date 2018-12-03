@@ -44,16 +44,16 @@ body{
   position: absolute;
   height: 5px;
   border-top: 1px solid #fff;
-  top: 5px;
-  width: 120px;
+  top: 7px;
+  width: 80%;
 }
 .linha span:before {
   right: 100%;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 .linha span:after {
   left: 100%;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 
@@ -112,8 +112,20 @@ body{
 
 
 
-@media only screen and (max-width: 575.98px) {
+@media screen and (max-width: 991.98px) {
+  .cor-nav{
+    background: #333a40;
+  }
   .font-media {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .font-media {
+    font-size: 2.5rem;
+  }
+  .sub-h2{
     font-size: 1.5rem;
   }
   .border-r{
@@ -121,17 +133,18 @@ body{
   }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media screen and (max-width: 575.98px) {
   .font-media {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+  }
+  .sub-h2{
+    font-size: 1.0rem;
   }
   .border-r{
     border-right: none;
   }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .font-media {
-    font-size: 3.5rem;
+  .linha span:before,
+  .linha span:after{
+    width: 50%;
   }
 }

@@ -15,10 +15,6 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
 
-    <!-- <script>
-      w3.includeHTML();
-    </script> -->
-
     <title>A.R. | Front End</title>
   </head>
   <body>
@@ -26,26 +22,7 @@
     <button id="buttonTop" class="btn shadow-none"><i class="fas fa-arrow-up"></i></button>
     
     <!-- Barra de navegação -->
-    <nav class="navbar fixed-top cor-nav txtbranco navbar-dark navbar-expand-lg">
-      <div class="container">
-        <a href="#" class="navbar-brand" title="ESCREVA_AQUI">
-          <img class="d-inline-block align-top" src="imagens/logo.png" alt="ESCREVA_AQUI" title="ESCREVA_AQUI" width="30" height="30">
-          A.R. | Front End
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" aria-controls="navbarSite" aria-expanded="false">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSite">
-          <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item"><a href="#index" title="ESCREVA_AQUI" class="nav-link desliza">Home</a></li>
-            <li class="nav-item"><a href="#sobre" title="ESCREVA_AQUI" class="nav-link desliza">Sobre mim</a></li>
-            <li class="nav-item"><a href="#skills" title="ESCREVA_AQUI" class="nav-link desliza">Skills</a></li>
-            <li class="nav-item"><a href="#projetos" title="ESCREVA_AQUI" class="nav-link desliza">Projetos</a></li>
-            <li class="nav-item"><a href="#contato" title="ESCREVA_AQUI" class="nav-link desliza">Contato</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div w3-include-html="inc/navbar.html"></div>
 
     <!-- Banner e descrição -->
     <div id="index" class="jumbotron jumbotron-fluid">
@@ -53,7 +30,7 @@
         <div class="my-auto mx-auto">
           <img class="mx-auto d-block" src="imagens/logo.png" alt="ESCREVA_AQUI" title="ESCREVA_AQUI" width="40">
           <h1 class="display-4 font-media text-center mb-0">Anderson Romão</h1>
-          <p class="text-center h3 mb-4 linha"><span>Front End</span></p>
+          <p class="text-center h2 sub-h2 mb-4 linha"><span>Front End</span></p>
           <!-- <p class="text-center">Não faço sites... Te faço ter uma identidade na internet<br>[MUDAR ESSA FRASE]</p> -->
           <div class="redes-sociais text-center">
             <a href="#" class="btn btn-outline-light btn-lg rounded-circle mx-1" title="ESCREVA_AQUI"><i class="fab fa-linkedin-in"></i></a>
@@ -77,7 +54,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas est, incidunt hic non excepturi laborum impedit similique sed! Libero itaque culpa omnis illo alias sit expedita veniam accusantium ad delectus.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut magnam unde? Corporis quibusdam porro voluptate magnam officia magni, necessitatibus asperiores voluptatum delectus, dolor doloremque iste atque eius reprehenderit temporibus.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dolor ullam, dicta libero obcaecati tenetur odio voluptatum deserunt expedita! Iusto quidem, mollitia corporis dignissimos quos. Asperiores expedita eius sunt harum!</p>
-              <a href="#" title="ESCREVA_AQUI" class="btn btn-secondary" role="button">Resumo</a>
+              <a href="#" title="ESCREVA_AQUI" class="btn btn-secondary btn-sm" role="button">Resumo</a>
             </div>
           </div>
         </div>
@@ -93,39 +70,33 @@
               </div>
               <div class="col-12 col-md pl-4">
                 <span>HTML5 e CSS</span>
-                <div class="progress">
-                  8/10
-                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress" style="height: 20px;">
+                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">8/10</div>
                 </div>
           
                 <span>JavaScript</span>
                 <div class="progress">
-                  4/10
-                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">4/10</div>
                 </div>
 
                 <span>PHP</span>
                 <div class="progress">
-                  3/10
-                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 30%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">3/10</div>
                 </div>
           
                 <span>WordPress</span>
                 <div class="progress">
-                  7/10
-                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">7/10</div>
                 </div>
           
                 <span>SEO</span>
                 <div class="progress">
-                  3/10
-                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 30%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">3/10</div>
                 </div>
 
                 <span>DESIGN</span>
                 <div class="progress">
-                  4/10
-                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">4/10</div>
                 </div>
               </div>
             </div>
@@ -235,5 +206,9 @@
     
     <!-- JavaScript (Opcional) -->
     <script src="js/funcoes.js"></script>
+
+    <script>
+      w3.includeHTML();
+    </script>
   </body>
 </html>

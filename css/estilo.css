@@ -294,4 +294,8 @@ body{
   .linha span:after{
     width: 50%;
   }
+
+  .mt-mobile-2{
+    margin-top: 1rem;
+  }
 }

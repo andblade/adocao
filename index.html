@@ -14,6 +14,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/circle.css">
 
     <title>A.R. | Front End</title>
   </head>
@@ -61,48 +62,8 @@
       </section>
 
       <!-- Habilidades -->
-      <section id="skills" class="bg-primaria py-5 mb-5">
-        <div class="container">
-           <div class="my-3">
-            <div class="row my-5 text-white">
-              <div class="col-12 col-md border-r border-white pr-4 cogs">
-                <h2 class="text-center text-md-right h1">Minhas<br>Habilidades</h2>
-              </div>
-              <div class="col-12 col-md pl-4">
-                <span>HTML5 e CSS</span>
-                <div class="progress" style="height: 20px;">
-                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">8/10</div>
-                </div>
-          
-                <span>JavaScript</span>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">4/10</div>
-                </div>
-
-                <span>PHP</span>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">3/10</div>
-                </div>
-          
-                <span>WordPress</span>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">7/10</div>
-                </div>
-          
-                <span>SEO</span>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">3/10</div>
-                </div>
-
-                <span>DESIGN</span>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">4/10</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div w3-include-html="inc/skill-circular.html"></div>
+      
 
       <!-- Projetos -->
       <section id="projetos">
@@ -110,7 +71,7 @@
           <h2 class="text-center">Projeto</h2>
           <p class="text-center">Projetos que criei e que também contribuí</p>
           
-          <div class="row py-2">
+          <div class="row mx-0 py-2">
             <div class="col-md-8 px-0">
               <div class="mx-2 zoom">
                 <a href="#" title="ESCREVA_AQUI">
@@ -129,7 +90,7 @@
               </div>
             </div>
           </div>
-          <div class="row py-2">
+          <div class="row mx-0 py-2">
             <div class="col-md-4 px-0">
               <div class="mx-2 zoom">
                 <a href="#" title="ESCREVA_AQUI">
@@ -147,7 +108,7 @@
               </div>
             </div>
           </div>
-          <div class="row py-2">
+          <div class="row mx-0 py-2">
             <div class="col-md-8 px-0">
               <div class="mx-2 zoom">
                 <a href="#" title="ESCREVA_AQUI">
@@ -165,7 +126,7 @@
               </div>
             </div>
           </div>
-          <div class="row py-2">
+          <div class="row mx-0 py-2">
             <div class="col-md-4 px-0 mt-mobile-2">
               <div class="mx-2 zoom">
                 <a href="#" title="ESCREVA_AQUI">
@@ -227,9 +188,8 @@
               </div>
             </div>
           </form>
-
+          
         </div>
-
       </section>
       
     </main>
@@ -237,7 +197,7 @@
     <!-- Footer -->
     <footer class="bg-primaria border-top">
       <div class="container text-center text-white py-3">
-        <span class="border-r">Anderson Romão | Front End</span>
+        <span>Anderson Romão | Front End</span>
         <a href="https://www.linkedin.com/in/anderson-santo-035883a2" target="_blank" rel="nofollow" class="mx-2" title="LinkedIn"><i class="fab fa-linkedin-in text-white"></i></a>
         <a href="https://github.com/andblade" target="_blank" rel="nofollow" class="mx-2" title="GitHub"><i class="fab fa-github text-white"></i></a>
       </div>

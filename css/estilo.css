@@ -38,9 +38,6 @@ body{
   background-color: black;
   opacity: 0.8;
 }
-.texto{
-  /*z-index: 1;*/
-}
 
 .linha{
   line-height: 0.5;
@@ -167,10 +164,9 @@ body{
 
 
 
-
-
 /* -------------------------- media queires -------------------------- */
 
+/* até monitores com largura de 991px */
 @media screen and (max-width: 991.98px) {
   .cor-nav{
     background: #333a40;
@@ -180,6 +176,7 @@ body{
   }
 }
 
+/* até tablets com largura de 767px */
 @media screen and (max-width: 767.98px) {
   .font-media {
     font-size: 2.5rem;
@@ -192,6 +189,7 @@ body{
   }
 }
 
+/* até celulares com largura de 575px */
 @media screen and (max-width: 575.98px) {
   .font-media {
     font-size: 1.5rem;

@@ -1,8 +1,8 @@
 <nav class="navbar fixed-top cor-nav txtbranco navbar-dark navbar-expand-lg">
   <div class="container">
-    <a href="#" class="navbar-brand desliza" title="ESCREVA_AQUI">
+    <a href="#index" class="navbar-brand desliza" title="ESCREVA_AQUI">
       <img class="d-inline-block align-top" src="imagens/logo.png" alt="ESCREVA_AQUI" title="ESCREVA_AQUI" width="30" height="30">
-      A.R. | Front End
+      Anderson Romão | Front End
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" aria-controls="navbarSite" aria-expanded="false">
       <span class="navbar-toggler-icon"></span>

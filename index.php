@@ -23,7 +23,7 @@
     <button id="buttonTop" class="btn shadow-none"><i class="fas fa-arrow-up"></i></button>
     
     <!-- Barra de navegação -->
-    <div w3-include-html="inc/navbar.html"></div>
+    <?include('inc/navbar.php');?>
 
     <!-- Banner e descrição -->
     <div id="index" class="jumbotron jumbotron-fluid">
@@ -49,11 +49,11 @@
       <section id="sobre">
         <div class="container">
           <div class="row my-5">
-            <div class="col-12 col-md border-r pr-4">
+            <div class="col-12 col-md-4 border-r pr-4">
               <h2 class="text-center text-md-right h1">Sobre<br>Min</h2>
               <img src="imagens/imagem-02.jpg" class="rounded-circle d-block mx-auto float-md-right my-3" alt="Sobre Mim" title="Sobre Mim">
             </div>
-            <div class="col-12 col-md pl-4 aspas">
+            <div class="col-12 col-md-8 pl-4 aspas">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas est, incidunt hic non excepturi laborum impedit similique sed! Libero itaque culpa omnis illo alias sit expedita veniam accusantium ad delectus.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut magnam unde? Corporis quibusdam porro voluptate magnam officia magni, necessitatibus asperiores voluptatum delectus, dolor doloremque iste atque eius reprehenderit temporibus.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dolor ullam, dicta libero obcaecati tenetur odio voluptatum deserunt expedita! Iusto quidem, mollitia corporis dignissimos quos. Asperiores expedita eius sunt harum!</p>
@@ -64,8 +64,8 @@
       </section>
 
       <!-- Habilidades -->
-      <!-- <div w3-include-html="inc/skill-circular.html"></div> -->
-      <div w3-include-html="inc/progress-bar-demo52.html"></div>
+      <!-- <?include('inc/skill-circular.php');?> -->
+      <?include('inc/progress-bar-demo52.php');?>
 
       
 
@@ -221,9 +221,5 @@
     
     <!-- JavaScript (Opcional) -->
     <script src="js/funcoes.js"></script>
-
-    <script>
-      w3.includeHTML();
-    </script>
   </body>
 </html>

@@ -2,7 +2,7 @@
   <div class="container">
     <a href="#index" class="navbar-brand desliza" title="ESCREVA_AQUI">
       <img class="d-inline-block align-top" src="imagens/logo.png" alt="ESCREVA_AQUI" title="ESCREVA_AQUI" width="30" height="30">
-      Anderson Romão | Front End
+      <span class="h6">Anderson Romão | Front End</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite" aria-controls="navbarSite" aria-expanded="false">
       <span class="navbar-toggler-icon"></span>

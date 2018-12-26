@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/progress-bar-demo52.css">
 
-    <title>A.R. | Front End</title>
+    <title>Anderson Romão | Front End</title>
   </head>
   <body>
 
@@ -64,8 +64,10 @@
       </section>
 
       <!-- Habilidades -->
-      <!-- <?include('inc/skill-circular.php');?> -->
-      <?include('inc/progress-bar-demo52.php');?>
+      <?#include('inc/skill-circular.php');?>
+      <?#include('inc/progress-bar-demo52.php');?>
+      <?#include('inc/progress-bar-demo56.php');?>
+      <?include('inc/circular-prog-bar.php');?>
 
       
 
@@ -75,8 +77,8 @@
           <h2 class="text-center">Projeto</h2>
           <p class="text-center">Projetos que criei e que também contribuí</p>
           
-          <div class="row mx-0 py-2">
-            <div class="col-md-8 px-0">
+          <div class="row mx-0 py-md-0">
+            <div class="col-md-8 px-0 mb-sm-3 mb-3">
               <div class="mx-2 zoom">
                 <a href="#" title="ESCREVA_AQUI">
                   <div class="clarear">
@@ -85,7 +87,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-4 px-0 mt-mobile-2">
+            <div class="col-md-4 px-0 mb-3">
               <div class="mx-2 zoom">
                 <a href="#" title="ESCREVA_AQUI">
                   <div class="clarear">
@@ -95,8 +97,8 @@
               </div>
             </div>
           </div>
-          <div class="row mx-0 py-2">
-            <div class="col-md-4 px-0">
+          <div class="row mx-0 py-md-0">
+            <div class="col-md-4 px-0 mb-sm-3 mb-3">
               <div class="mx-2 zoom">
                 <a href="#" title="ESCREVA_AQUI">
                   <div class="clarear">
@@ -105,7 +107,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-8 px-0 mt-mobile-2">
+            <div class="col-md-8 px-0 mb-3">
               <div class="mx-2 zoom">
                 <a href="#" title="ESCREVA_AQUI">
                   <div class="clarear">
@@ -115,8 +117,8 @@
               </div>
             </div>
           </div>
-          <div class="row mx-0 py-2">
-            <div class="col-md-8 px-0">
+          <div class="row mx-0 py-md-0">
+            <div class="col-md-8 px-0 mb-sm-3 mb-3">
               <div class="mx-2 zoom">
                 <a href="#" title="ESCREVA_AQUI">
                   <div class="clarear">
@@ -125,7 +127,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-4 px-0 mt-mobile-2">
+            <div class="col-md-4 px-0 mb-3">
               <div class="mx-2 zoom">
                 <a href="#" title="ESCREVA_AQUI">
                   <div class="clarear">
@@ -135,8 +137,8 @@
               </div>
             </div>
           </div>
-          <div class="row mx-0 py-2">
-            <div class="col-md-4 px-0 mt-mobile-2">
+          <div class="row mx-0 py-md-0">
+            <div class="col-md-4 px-0 mb-sm-3 mb-3">
               <div class="mx-2 zoom">
                 <a href="#" title="ESCREVA_AQUI">
                   <div class="clarear">
@@ -145,7 +147,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-4 px-0 mt-mobile-2">
+            <div class="col-md-4 px-0 mb-3">
               <div class="mx-2 zoom">
                 <a href="#" title="ESCREVA_AQUI">
                   <div class="clarear">
@@ -154,7 +156,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-4 mt-mobile-2">
+            <div class="col-md-4 mt-sm-4 mb-3">
               <div class="h-100 d-flex">
                 <a href="#" title="Veja Mais" class="btn btn-lg btn-secondary mx-auto my-auto">Veja Mais</a>
               </div>

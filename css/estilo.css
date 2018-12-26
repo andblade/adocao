@@ -166,6 +166,16 @@ body{
 
 /* -------------------------- media queires -------------------------- */
 
+/* CLASSE ESPECIAL PARA A FONTE DO PROGRESS CIRCLE "HTML E CSS" */
+@media screen and (min-width: 990px) and (max-width: 1200px){
+  .font-especial{
+    font-size: 14px;
+    margin-top: 3px !important;
+    margin-bottom: 8px !important;
+  }
+}
+
+
 /* até monitores com largura de 991px */
 @media screen and (max-width: 991.98px) {
   .cor-nav{

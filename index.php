@@ -14,7 +14,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/progress-bar-demo52.css">
+    <!-- <link rel="stylesheet" href="css/progress-bar-demo52.css"> -->
+    <link rel="stylesheet" href="css/circle.css">
 
     <title>Anderson Romão | Front End</title>
   </head>
@@ -50,10 +51,10 @@
         <div class="container">
           <div class="row my-5">
             <div class="col-12 col-md-4 border-r pr-4">
-              <h2 class="text-center text-md-right h1">Sobre<br>Min</h2>
+              <h2 class="text-center text-md-right h1 aspas">Sobre<br>Min</h2>
               <img src="imagens/imagem-02.jpg" class="rounded-circle d-block mx-auto float-md-right my-3" alt="Sobre Mim" title="Sobre Mim">
             </div>
-            <div class="col-12 col-md-8 pl-4 aspas">
+            <div class="col-12 col-md-8 pl-4">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas est, incidunt hic non excepturi laborum impedit similique sed! Libero itaque culpa omnis illo alias sit expedita veniam accusantium ad delectus.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut magnam unde? Corporis quibusdam porro voluptate magnam officia magni, necessitatibus asperiores voluptatum delectus, dolor doloremque iste atque eius reprehenderit temporibus.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dolor ullam, dicta libero obcaecati tenetur odio voluptatum deserunt expedita! Iusto quidem, mollitia corporis dignissimos quos. Asperiores expedita eius sunt harum!</p>
@@ -67,7 +68,8 @@
       <?#include('inc/skill-circular.php');?>
       <?#include('inc/progress-bar-demo52.php');?>
       <?#include('inc/progress-bar-demo56.php');?>
-      <?include('inc/circular-prog-bar.php');?>
+      <?#include('inc/circular-prog-bar.php');?>
+      <?include('inc/progress-circular.php');?>
 
       
 

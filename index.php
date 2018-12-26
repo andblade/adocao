@@ -14,8 +14,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <!-- <link rel="stylesheet" href="css/progress-bar-demo52.css"> -->
-    <link rel="stylesheet" href="css/circle.css">
+    <link rel="stylesheet" href="css/progress-bar.css">
+    <link rel="stylesheet" href="css/progress-circular.css">
 
     <title>Anderson Romão | Front End</title>
   </head>
@@ -65,13 +65,8 @@
       </section>
 
       <!-- Habilidades -->
-      <?#include('inc/skill-circular.php');?>
-      <?#include('inc/progress-bar-demo52.php');?>
-      <?#include('inc/progress-bar-demo56.php');?>
-      <?#include('inc/circular-prog-bar.php');?>
+      <?#include('inc/progress-bar.php');?>
       <?include('inc/progress-circular.php');?>
-
-      
 
       <!-- Projetos -->
       <section id="projetos">

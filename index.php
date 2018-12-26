@@ -21,7 +21,7 @@
   </head>
   <body>
 
-    <button id="buttonTop" class="btn shadow-none"><i class="fas fa-arrow-up"></i></button>
+    <button id="buttonTop" class="btn shadow-none bg-detalhes"><i class="text-dark fas fa-arrow-up"></i></button>
     
     <!-- Barra de navegação -->
     <?include('inc/navbar.php');?>
@@ -58,7 +58,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas est, incidunt hic non excepturi laborum impedit similique sed! Libero itaque culpa omnis illo alias sit expedita veniam accusantium ad delectus.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut magnam unde? Corporis quibusdam porro voluptate magnam officia magni, necessitatibus asperiores voluptatum delectus, dolor doloremque iste atque eius reprehenderit temporibus.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dolor ullam, dicta libero obcaecati tenetur odio voluptatum deserunt expedita! Iusto quidem, mollitia corporis dignissimos quos. Asperiores expedita eius sunt harum!</p>
-              <a href="#" title="ESCREVA_AQUI" class="btn btn-secondary btn-sm" role="button">Resumo</a>
+              <a href="#" title="ESCREVA_AQUI" class="btn bg-detalhes text-dark btn-sm" role="button">Resumo</a>
             </div>
           </div>
         </div>
@@ -160,7 +160,7 @@
             </div>
             <div class="col-md-4 mt-sm-4 mb-3">
               <div class="h-100 d-flex">
-                <a href="#" title="Veja Mais" class="btn btn-lg btn-secondary mx-auto my-auto">Veja Mais</a>
+                <a href="#" title="Veja Mais" class="btn btn-lg bg-detalhes text-dark mx-auto my-auto">Veja Mais</a>
               </div>
             </div>
           </div>
@@ -199,7 +199,7 @@
                   <label for="formMensagem">Mensagem</label>
                   <textarea name="mensagem" id="formMensagem" rows="6" class="form-control" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                <button type="submit" class="btn bg-detalhes btn-block">Enviar</button>
               </div>
             </div>
           </form>

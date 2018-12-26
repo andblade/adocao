@@ -12,7 +12,7 @@
           <div class="row">
             <div class="col-lg-2 col-md-4 col-sm-4 text-center">
               <p class="mt-0 mb-2  font-especial">HTML e CSS</p>
-              <div class="c100 p80 dark white mx-auto float-none">
+              <div class="c100 p80 dark blue2 mx-auto float-none">
                 <span class="text-white">80%</span>
                 <div class="slice">
                   <div class="bar"></div>
@@ -23,7 +23,7 @@
             
             <div class="col-lg-2 col-md-4 col-sm-4 text-center">
               <p class="mt-0 mb-2 ">JavaScript</p>
-              <div class="c100 p40 dark white mx-auto float-none">
+              <div class="c100 p40 dark blue2 mx-auto float-none">
                 <span class="text-white">40%</span>
                 <div class="slice">
                   <div class="bar"></div>
@@ -34,7 +34,7 @@
             
             <div class="col-lg-2 col-md-4 col-sm-4 text-center">
               <p class="mt-0 mb-2 ">PHP</p>
-              <div class="c100 p30 dark white mx-auto float-none">
+              <div class="c100 p30 dark blue2 mx-auto float-none">
                 <span class="text-white">30%</span>
                 <div class="slice">
                   <div class="bar"></div>
@@ -45,7 +45,7 @@
             
             <div class="col-lg-2 col-md-4 col-sm-4 text-center">
               <p class="mt-0 mb-2 ">WordPress</p>
-              <div class="c100 p70 dark white mx-auto float-none">
+              <div class="c100 p70 dark blue2 mx-auto float-none">
                 <span class="text-white">70%</span>
                 <div class="slice">
                   <div class="bar"></div>
@@ -56,7 +56,7 @@
             
             <div class="col-lg-2 col-md-4 col-sm-4 text-center">
               <p class="mt-0 mb-2 ">SEO</p>
-              <div class="c100 p30 dark white mx-auto float-none">
+              <div class="c100 p30 dark blue2 mx-auto float-none">
                 <span class="text-white">30%</span>
                 <div class="slice">
                   <div class="bar"></div>
@@ -67,7 +67,7 @@
             
             <div class="col-lg-2 col-md-4 col-sm-4 text-center">
               <p class="mt-0 mb-2 ">Design</p>
-              <div class="c100 p40 dark white mx-auto float-none">
+              <div class="c100 p40 dark blue2 mx-auto float-none">
                 <span class="text-white">40%</span>
                 <div class="slice">
                   <div class="bar"></div>

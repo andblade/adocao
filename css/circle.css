@@ -878,17 +878,17 @@
   color: #e08833;
 }
 
-.c100.blue .bar, .c100.blue .fill {
-  border-color: #3347e0 !important;
+.c100.blue2 .bar, .c100.blue2 .fill {
+  border-color: #0cc7db !important;
 }
-.c100.blue:hover > span {
-  color: #3347e0;
+.c100.blue2:hover > span {
+  color: #0cc7db;
 }
-.c100.blue.dark .bar, .c100.blue.dark .fill {
-  border-color: #3347e0 !important;
+.c100.blue2.dark .bar, .c100.blue2.dark .fill {
+  border-color: #0cc7db !important;
 }
-.c100.blue.dark:hover > span {
-  color: #3347e0;
+.c100.blue2.dark:hover > span {
+  color: #0cc7db;
 }
 
 .c100.white .bar, .c100.white .fill {

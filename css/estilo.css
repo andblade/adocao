@@ -2,33 +2,10 @@ body{
   font-family: 'Ubuntu', sans-serif;
 }
 
-.bg-primaria{
-  background-color: #171f28 !important;
-}
-.bg-detalhes{
-  background-color: #afb5bc !important;
-}
-.cor-nav{
-  background: rgba(0, 0, 0, 0.1);
-  /*border-bottom: 1px solid rgba(255, 255, 255, 0.2);*/
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.txtbranco a{
-  color: #fff!important;
-}
-.nav-link:hover{
-  color: #afb5bc !important;
-  transition: .5s;
-}
-
-
 .jumbotron {
   position: relative;
   color: white;
-  background: url(../imagens/slider/banner13.jpg) no-repeat center center;
+  background: url(../imagens/banner13.jpg) no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
@@ -69,60 +46,9 @@ body{
 }
 
 
-.container2{
-  max-width: 900px;
-  width: 100%;
-  /*padding-right: 15px;*/
-  /*padding-left: 15px;*/
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#buttonTop{
-  display: inline-block;
-  background-color: #60676f;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 50%;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s, 
-  opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-}
-#buttonTop:hover {
-  cursor: pointer;
-  background-color: #555;
-}
-#buttonTop.show {
-  opacity: 1;
-  visibility: visible;
-}
-#buttonTop .fa-arrow-up{
-  color: #ccc;
-}
-
-.border-r{
-  border-right: 5px solid #383e45;
-}
-
-.aspas{
-  background: url(../imagens/quotes.png) no-repeat center center;
-  background-size: contain;
-}
-.cogs{
-  background: url(../imagens/engrenagem.png) no-repeat center center;
-  background-size: contain;
-}
-
 .img-medidas-iguais{
   object-fit: cover;
 }
-
 .zoom{
   position: relative;
   overflow: hidden;
@@ -137,13 +63,6 @@ body{
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
 }*/
-
-.rotacao:hover{
-  transform: scale(1.2) rotate(5deg);
-  -moz-transform: scale(1.2) rotate(5deg);
-  -webkit-transform: scale(1.2) rotate(5deg);
-  background-color: red;
-}
 
 .clarear{
   position: relative;
@@ -171,54 +90,24 @@ body{
 
 /* CLASSE ESPECIAL PARA A FONTE DO PROGRESS CIRCLE "HTML E CSS" */
 @media screen and (min-width: 990px) and (max-width: 1200px){
-  .font-especial{
-    font-size: 14px;
-    margin-top: 3px !important;
-    margin-bottom: 8px !important;
-  }
+  
 }
 
 
 /* até monitores com largura de 991px */
 @media screen and (max-width: 991.98px) {
-  .cor-nav{
-    background: #333a40;
-  }
-  .font-media {
-    font-size: 3.5rem;
-  }
+  
 }
 
 /* até tablets com largura de 767px */
 @media screen and (max-width: 767.98px) {
-  .font-media {
-    font-size: 2.5rem;
-  }
-  .sub-h2{
-    font-size: 1.5rem;
-  }
-  .border-r{
-    border-right: none;
-  }
+  
 }
 
 /* até celulares com largura de 575px */
 @media screen and (max-width: 575.98px) {
-  .font-media {
-    font-size: 1.5rem;
-  }
-  .sub-h2{
-    font-size: 1.0rem;
-  }
-  .border-r{
-    border-right: none;
-  }
   .linha span:before,
   .linha span:after{
     width: 50%;
   }
-
-  /*.mt-mobile-2{
-    margin-top: 1rem;
-  }*/
 }
